@@ -13,7 +13,7 @@ contract GameChainToken is EIP20Interface {
     string  public symbol = "GAMT";
     string  public standard = "GameChainToken Token v0.1";
     uint8   public decimals = 18; // Initial value as wei
-    uint256 _initialAmount = 1000000000000000000000000;
+    uint256 _initialAmount = 1000000000000000000000000000;
 
     constructor(
 

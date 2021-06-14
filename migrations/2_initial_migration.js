@@ -9,5 +9,5 @@ module.exports = async function(deployer) {
   const gameChainToken = await GameChainToken.deployed()
 
 // All tokens to Swap ( 1 Million ) 
-await gameChainToken.transfer(gameChainSwap.address,'1000000000000000000000000')
+await gameChainToken.transfer(gameChainSwap.address,'1000000000000000000000000000')
 };
